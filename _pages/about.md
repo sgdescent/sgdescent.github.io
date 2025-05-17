@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am an MS student at [CMU LTI](https://lti.cs.cmu.edu/). My research interests broadly lie in NLP, making LLMs more efficient during training and inferencing, and personalizing LLMs. Previously I was a research engineer at [Zomato](https://www.zomato.com/) India's largest food delivery platform, where I broadly worked on making LLM powered products and ensuring LLM responses are served at the lowest latency possible. Before that, I was a Member of Technical Staff at [Boson AI](https://boson.ai/), where I worked on using VLLMs to extract book and paper data at scale for training foundational models. My research journey began at the [PROSE](https://www.microsoft.com/en-us/research/group/prose/interns-research-fellows/) group at Microsoft Redmond where I was a pre-doctoral researcher working on AI4Code. I have also done a co-op at [Prodial](https://www.prodigaltech.com/) as a SWE intern on the data platform team.
+I am an incoming MS student at [CMU LTI](https://lti.cs.cmu.edu/). My research interests broadly lie in NLP, making LLMs more efficient, and personalizing LLMs. Currently I was a research engineer II at [Zomato](https://www.zomato.com/) India's largest food delivery platform, where I work on making LLM powered products and ensuring LLM responses are served at the lowest latency possible. Before that, I was a Member of Technical Staff at [Boson AI](https://boson.ai/), where I worked on using VLLMs to extract book and paper data at scale for training foundational models. My research journey began at the [PROSE](https://www.microsoft.com/en-us/research/group/prose/interns-research-fellows/) group at Microsoft Redmond where I was a pre-doctoral researcher working on AI4Code and personalizing LLMs. I have also done a co-op at [Prodial](https://www.prodigaltech.com/) as a SWE intern on the data platform team.
 
-I am looking for research internships starting from Summer 2026. Please feel free to reach out to me at `saksham.g` at `andrew.cmu.edu` 
+I am looking for scientist/research internships and research engineering internships in Summer 2026. Please feel free to reach out to me at `saksham.g` at `andrew.cmu.edu` if you are hiring.
 
 Past/Present Affiliations  
 ======
