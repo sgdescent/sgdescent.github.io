@@ -1,0 +1,172 @@
+/* Custom styles for adding a logo */
+.masthead__logo {
+  display: inline-block;
+  height: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.site-title {
+  display: flex;
+  align-items: center;
+} 
+
+/* Global theme overrides - forcing colors for both themes */
+:root {
+  --global-text-color: #333333;
+  --global-link-color: #0056b3;
+  --global-link-color-hover: #003d7a;
+  --global-link-color-visited: #6c4993;
+  --global-bg-color: #f8f9fa;
+}
+
+/* Dark theme overrides */
+html[data-theme="dark"] {
+  --global-text-color: #ffffff;
+  --global-link-color: #52adc8;
+  --global-link-color-hover: #7ac7dc;
+  --global-link-color-visited: #a47dd6;
+  --global-bg-color: #1e1428;
+}
+
+/* Theme-aware background styles */
+body {
+  background-attachment: fixed;
+}
+
+/* Dark theme specific styles */
+html[data-theme="dark"] body {
+  background: linear-gradient(135deg, #1e1428 0%, #472b58 50%, #31213f 100%);
+  color: var(--global-text-color);
+}
+
+/* Light theme gets a subtle gradient */
+html:not([data-theme="dark"]) body {
+  background: linear-gradient(135deg, #f2f2f2 0%, #e6e6e6 100%);
+  color: var(--global-text-color);
+}
+
+/* Carnegie red masthead for both themes */
+.masthead {
+  background: #C41230 !important;
+}
+
+/* Ensure greedy-nav has the same Carnegie red background */
+.greedy-nav {
+  background: #C41230 !important;
+}
+
+/* Add subtle metallic highlight */
+.masthead::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+  z-index: 2;
+}
+
+/* Make masthead menu items color consistent */
+.masthead__menu-item {
+  background-color: transparent !important;
+}
+
+/* Make sure dropdown menu background is also Carnegie red */
+.greedy-nav .hidden-links {
+  background: #C41230 !important;
+  border-color: #9D0E26 !important;
+}
+
+.greedy-nav .hidden-links::after {
+  border-color: #C41230 transparent !important;
+}
+
+.greedy-nav .hidden-links::before {
+  border-color: #9D0E26 transparent !important;
+}
+
+.greedy-nav .hidden-links a {
+  color: #ffffff !important;
+}
+
+.greedy-nav .hidden-links a:hover {
+  color: #FFCCD1 !important;
+  background: #9D0E26 !important;
+}
+
+.masthead a, .masthead .site-title {
+  color: #ffffff !important;
+}
+
+.masthead a:hover {
+  color: #FFCCD1 !important;
+}
+
+/* Theme-aware content styles */
+.page {
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Dark theme page background */
+html[data-theme="dark"] .page {
+  background-color: rgba(35, 23, 46, 0.8);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  color: var(--global-text-color);
+}
+
+/* Light theme page background and text color */
+html:not([data-theme="dark"]) .page {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Force text colors in light theme */
+html:not([data-theme="dark"]) .page h1,
+html:not([data-theme="dark"]) .page h2,
+html:not([data-theme="dark"]) .page h3,
+html:not([data-theme="dark"]) .page h4,
+html:not([data-theme="dark"]) .page h5,
+html:not([data-theme="dark"]) .page h6,
+html:not([data-theme="dark"]) .page p,
+html:not([data-theme="dark"]) .page li,
+html:not([data-theme="dark"]) .page td {
+  color: #333333 !important;
+}
+
+/* Fix link colors in light theme */
+html:not([data-theme="dark"]) .page a:not(.btn) {
+  color: #0056b3 !important;
+}
+
+html:not([data-theme="dark"]) .page a:not(.btn):hover {
+  color: #003d7a !important;
+}
+
+/* Ensure dark theme has proper text color */
+html[data-theme="dark"] .page p,
+html[data-theme="dark"] .page li,
+html[data-theme="dark"] .page h1,
+html[data-theme="dark"] .page h2,
+html[data-theme="dark"] .page h3,
+html[data-theme="dark"] .page h4,
+html[data-theme="dark"] .page h5,
+html[data-theme="dark"] .page h6 {
+  color: #ffffff !important;
+}
+
+/* Dark theme links */
+html[data-theme="dark"] .page a:not(.btn) {
+  color: #52adc8 !important;
+}
+
+html[data-theme="dark"] .page a:not(.btn):hover {
+  color: #7ac7dc !important;
+}
+
+/* Force text colors for specific elements that might be problematic */
+.author__name, .author__bio, .author__urls-wrapper {
+  color: inherit !important;
+} 
