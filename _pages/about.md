@@ -12,7 +12,7 @@ My research journey began at the [PROSE](https://www.microsoft.com/en-us/researc
 
 I am excited to continue my research journey as an incoming MS student at [CMU LTI](https://lti.cs.cmu.edu/), where my interests broadly lie in NLP, making LLMs more efficient, and personalizing LLMs.
 
-I am looking for scientist/research internships and research engineering internships in Summer 2026. Please feel free to reach out to me at `saksham.g` at `andrew.cmu.edu` if you are hiring.
+I am looking for research scientist/engineer internships in Summer 2026. Please feel free to reach out to me at `saksham.g` at `andrew.cmu.edu` if you are hiring.
 
 Past/Present Affiliations  
 ======
