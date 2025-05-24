@@ -14,9 +14,6 @@ I am excited to continue my research journey as an incoming MS student at [CMU L
 
 I am looking for scientist/research internships and research engineering internships in Summer 2026. Please feel free to reach out to me at `saksham.g` at `andrew.cmu.edu` if you are hiring.
 
-
-I am looking for scientist/research internships and research engineering internships in Summer 2026. Please feel free to reach out to me at `saksham.g` at `andrew.cmu.edu` if you are hiring.
-
 Past/Present Affiliations  
 ======
 
